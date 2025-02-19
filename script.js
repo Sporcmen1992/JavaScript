@@ -21,7 +21,7 @@ if(age >= 18 && isCitizen && isResidentForDays >= 30) {
 }
 
 // Task Nr3
-let age1 = 30;
+let age1 = 35;
 let bmi = 50;
 let smoke = true;
 
