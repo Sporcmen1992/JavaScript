@@ -30,7 +30,7 @@ if(age1 < 30 && bmi < 25 && !smoke) {
     console.log("Low risk");
 } else if(age1 > 30 && age1 <= 50 && bmi > 25 && bmi < 30 && !smoke) {
     console.log('Medium risk')
-} else if ((age1 > 50 || bmi >= 30 || smoke) && (age1 > 50 && bmi >= 30 && !smokes)) {
+} else if ((age1 > 50 || bmi >= 30 || smoke) && (age1 > 50 && bmi >= 30 && !smoke)) {
     console.log('High risk')
 } else if (age1 > 50 && bmi >= 30 && smoke) {
     console.log('Very high risk')
